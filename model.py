@@ -317,7 +317,7 @@ class Implicit4DNN(nn.Module):
         self.conv4_1_bn = nn.BatchNorm2d(128)
         self.conv5_1_bn = nn.BatchNorm2d(128)
 
-        self.to(device)
+        #self.to(device)
         self.device = device
         self.num_ref_views = cfg.num_reference_views
         self.batch_size = cfg.batch_size
